@@ -105,3 +105,16 @@ args(list.files)
 
 # There is some stuff on attaching names to vectors with foo = n or just going names(vect) <= c("foo", "bar").
 # There is also use of the identical() function to determine if two vectors are the same.
+
+#### Matrices and Data Frames
+
+# dim() gives dimension of objects
+
+# by using dim() on a vector you can convert a vector to a matrix
+
+# So data frame is the big data object. That allows strings and numbers. Matrix is only one data type.
+# With that in mind, We added patient names to the data by just doing a new data.frame of vectors and a matrix
+# my_data <- data.frame(patients(vector), my_matrix(matrix)) I don't know if this is the best way.
+
+# Then from their the dataset doesn't have variable names, so I created a new vector of all of the variable names
+# and added it to the dataframe with colnames. That is like an attribute of a dataframe
