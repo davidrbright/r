@@ -133,4 +133,12 @@
 
 # Don't give meaning to the size of the p values
 
-## 3.4 Confidence Intervals for Beta (where I left off.)
+## 3.4 Confidence Intervals for Beta
+
+# data(savings) is the datafile
+
+# This is getting too technical to the point where I question the value in 
+# learning it. Not from the perspective of it being important, but
+# from the utility of doing statistics for research results.
+
+# 3.10 Interpreting Parameter Estimates
