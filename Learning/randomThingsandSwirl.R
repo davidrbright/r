@@ -118,3 +118,35 @@ args(list.files)
 
 # Then from their the dataset doesn't have variable names, so I created a new vector of all of the variable names
 # and added it to the dataframe with colnames. That is like an attribute of a dataframe
+
+## Logic
+
+# To check equality of values use ==
+
+# This covers a lot of the logical operators I already know from other languages.
+
+# & is different from &&. With vectors & evaluates all. && only evaluates first element.
+
+# and operators always evaluated before the or operators
+
+# which is an interesting function. Takes a data and logical operations and
+# you can ask questions basically, which values are greater than 5
+
+# any() is another interesting function. Give it a logical statement and it will
+# see if any of those apply to the vector
+
+#### Functions
+
+# function_name <- function(arg1, arg2){
+#	# Manipulate arguments in some way
+#	# Return a value
+# }
+
+# you can set default values for args with = ex. denominator = 2
+
+# Order of arguments doesn't matter if I am explicit and use = sign
+# That's why it works that way with different function calls I've
+# been doing.
+
+# I can do functional programming things with R. Remember that.
+# Run things functionally as much as possible.
