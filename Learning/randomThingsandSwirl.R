@@ -150,3 +150,14 @@ args(list.files)
 
 # I can do functional programming things with R. Remember that.
 # Run things functionally as much as possible.
+
+# ... is standin for multiple args
+
+# You can pull out args with list(...) and each arg. Seems like you need to name them, but it is also a list
+# and I can just pull them out by order args[1] or args["test"]
+
+# You can create binary operators "%t%" <- function(args) {}
+# They have to be surrounded by quotes and are with percentage signs usage is x %t% y
+# the binary operator can also have as long of a string length as I want %mul-add-1%
+
+#### lapply and sapply
